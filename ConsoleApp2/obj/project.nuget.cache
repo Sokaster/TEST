@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xRQcI64dgC8Tybakf45AACCMBzpYVFi5GDGaNSD2UBT38ngitW3QWdl+OEp3zUcxcDgxKrzEWu+17GXCgltTFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP-79\\source\\repos\\ConsoleApp2\\TEST\\ConsoleApp2\\ConsoleApp2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP-79\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.27\\microsoft.netcore.app.host.win-x64.3.1.27.nupkg.sha512"
+  ],
+  "logs": []
+}
