@@ -10,12 +10,14 @@ namespace ConsoleApp2
             string surname = "";
             int age = 0;
             int response = 0;
+            int weight = 0;
             while (response != -1)
             {
                 Console.WriteLine(@"Enter 0 to enter name" + Environment.NewLine +
                                     "Enter -1 to exit" + Environment.NewLine +
                                     "Enter 1 to enter surname" + Environment.NewLine +
                                     "Enter 2 to enter age" + Environment.NewLine +
+                                    "Enter 3 to enter weight" + Environment.NewLine +
                                     "Enter -2 to print resume");
 
                 response = int.Parse(Console.ReadLine());
@@ -44,6 +46,13 @@ namespace ConsoleApp2
                             Console.WriteLine(name);
                             Console.WriteLine(surname);
                             Console.WriteLine(age);
+                            Console.WriteLine(weight);
+                            break;
+                        }
+                    case 3:
+                        {
+                            Console.WriteLine("Enter weight");
+                            height = int.Parse(Console.ReadLine());
                             break;
                         }
                     case -1:
